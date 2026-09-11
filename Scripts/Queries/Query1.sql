@@ -1,0 +1,2 @@
+Select e.FirstName AS EmployeeFirstName, e.LastName AS EmployeeLastName, e.title AS EmployeeTitle, m.firstName AS ManagersFirstName, m.lastName AS ManagersLastName from Employee e
+inner join Employee m on e.ManagerId = m.EmployeeId; 
